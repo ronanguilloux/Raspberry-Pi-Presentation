@@ -37,18 +37,35 @@
 
 				<section>
 					<h1>Raspberry Pi</h1>
+					<img src="/medias/logos/1.png" width="33%" alt="Logo SVG">
 					<h3>Nerd's best sextoy ever</h3>
 					<p>
 					    <a href="http://www.raspberrypi.org/">www.raspberrypi.org</a>
+					    <br><a href="https://twitter.com/#raspi">#raspi</a>
 					</p>
 				</section>
 
 				<section>
                     <h2 style="text-transform:lowercase;">/me</h2>
-                    <p>35 ans, breton, papa, développeur</p>
-                    <p><a href="http://arnolog.net">arnolog.net</a></p>
-                    <p><a href="http://rasberrypibeginnersguide.tumblr.com/">raspberrypibeginnersguide.tumblr.com</a></p>
-                    <p><a href="http://twitter.com/arno_u_loginlux">@arno_u_loginlux</a></p>
+                    <p>&nbsp;</p>
+					<pre><code contenteditable>var me = {
+    "user": "Ronan"
+    , "age": 35
+    , "origin": "Brittany"
+    , "twitter": "@arno_u_loginlux"
+    , "repo": "github.com/ronanguilloux"
+    , "work": "cto@toog.fr"
+    , "tags": [
+        "dad"
+        , "bearded web developer"
+        , "foss"
+    ]
+}
+</code></pre>
+
+                	<p><br>"First Jeudi Nantes"<br>Appreciation Society Member<p>
+                    <p><small>since 2009</small></p>
+                    
                     <aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 					</aside>
@@ -58,19 +75,107 @@
 				<section>
 					<section>
                         <h2>Meet the raspberry Pi</h2>
-						<h3>Hands-on discovery</h3>
-                        <img width="50%" height="50%" src="/medias/photos/1.jpg" alt="">
+						<img width="50%" src="/medias/photos/1.jpg" />
+						<p><small>So this is how it started:<br>I bought a Rasberry Pi.</small></p>
 					</section>
 					<section>
                         <h2>Meet the raspberry Pi</h2>
-                        <img width="50%" height="50%" src="/medias/photos/2.jpg" alt="">
+                        <img width="66%" src="/medias/photos/2.png" alt="">
+					</section>
+					<section>
+						<h2>What’s a Raspberry Pi?</h2>
+						<blockquote cite="http://www.raspberrypi.org/faqs">
+							The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn (python) programming.
+						</blockquote>
+					</section>
+					<section>
+						<h2>Meet the raspberry Pi</h2>
+						<ul>
+							<li>not an open hardware (who care? <a href="http://www.unixgarden.com/index.php/gnu-linux-magazine/gnulinux-magazine-n156-janvier-2012-en-kiosque/9">ping</a> @unixgarden)
+							<li><a href="http://www.broadcom.com/products/BCM2835">Broadcom BCM2835</a> 700MHz ARM1176JZFS processor with <a href="http://en.wikipedia.org/wiki/Floating-point_unit" title="Floating-point unit">FPU</a> and <a href="http://www.broadcom.com/products/Cellular/Mobile-Multimedia-Processors" title="High Definition 1080p Mobile Multimedia Processor, H.264-friendly, TV capability">Videocore 4 GPU</a></li>
+							<li>GPU provides Open GL ES 2.0, hardware-accelerated OpenVG, and 1080p30 H.264 high-profile decode</li>
+							<li>GPU is capable of 1Gpixel/s, 1.5Gtexel/s or 24GFLOPs with texture filtering and <a href="http://en.wikipedia.org/wiki/Direct_memory_access" title="Direct memory access">DMA infrastructure</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Meet the raspberry Pi</h2>
+						<ul>
+							<li>SDRAM 512 Megabytes (MiB)</li>
+							<li>Boots from SD card, running <a href="http://www.raspbian.org/" title="Raspbian is a free operating system based on Debian optimized for the Raspberry Pi hardwar">Debian-based Raspbian “wheezy” </a> or <a href="http://www.raspberrypi.org/downloads">Arch Linux ARM</a> GNU/Linux based distributions</li>
+							<li>Also: Fedora, Gentoo, Slackware, Firefox OS, Android</li>
+							<li>10/100 BaseT Ethernet socket</li>
+							<li>Video outputs: Composite RCA, HDMI</li>
+							<li>Audio outputs: 3.5 mm jack, HDMI</li>
+							<li>Onboard storage: SD, MMC, SDIO card slot</li>
+						</ul>
 					</section>
 					<section>
                         <h2>Meet the raspberry Pi</h2>
-                        <img width="50%" height="50%" src="/medias/photos/3.jpg" alt="">
+                        <img width="66%" src="/medias/photos/3.jpg" alt="">
+                        <p><small>Note the <a href="http://www.raspberrypi.org/archives/1254">csi connector pins for digital camera!</a></small></p>
+					</section>
+					<section>						
+						<h2>Manufactured in Europe!</h2>
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/zj9bFgsaBd4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+						<p><small>Raspi are manufactured in the UK, <br>at Sony's manufacturing facility in Pencoed, Wales.<br>1 million sold in 2012.</small></p>
 					</section>
 				</section>
+				<section>
+					<section>
+						<h2>#raspi for impatients</h2>
+						<h3>Where can I buy one?</h3>
+						<ul>
+							<li><a href="http://fr.farnell.com/raspberry-pi">@ Farnell / Element14</a></li>
+							<li><a href="http://fr.rs-online.com/web/generalDisplay.html?id=raspberrypi">@ RS Online</a></li>
+						</ul>
+						<p><br>32.88 €</p>
+						<p><small>(27.40 € exc. VAT)</small></p>
+						<p><small>Power supply or SD cards are not included</small></p>
+						</section>
+						<section>
+							<h2>#raspi for impatients</h2>
+							<h3>Essential accessories</h3>
+							<img src="/medias/accessories/1.jpg">
+							<p>a regular 5V / 1A smartphone charger<br>with <span style="text-decoration:line-through">mini</span> <b>micro</b> USB cable</p>
+						</section>
+						<section>
+							<h2>#raspi for impatients</h2>
+							<h3>Essential accessories</h3>
+							<img width="50%" src="/medias/accessories/2.jpg">
+							<p>a regular USB Wireless Dongle</p>
+						</section>
+						<section>
+							<h2>#raspi for impatients</h2>
+							<h3>Essential accessories</h3>
+							<img src="/medias/accessories/3.jpg">
+							<p>a SD CARD</p>
+						</section>
+						<section>
+							<h2>#raspi for impatients</h2>
+							<h3>Essential accessories</h3>
+							<img width="50%" src="/medias/accessories/4.jpg">
+							<p>(optional) a USB flash drive<br>Mind the box case!</p>
+						</section>
+						<section>
+							<h2>#raspi for impatients</h2>
+							<h3>Essential accessories</h3>
+							<img width="50%" src="/medias/accessories/5.jpg">
+							<p>a box case!</p>
+						</section>
+						<section>
+							<h2>Will my USB Webcam fit?</h2>
+							<p>&nbsp;</p>
+							<p>check the community documentation:</p>
+							<p>&nbsp;</p>
+							<p><a href="http://elinux.org/RPi_VerifiedPeripherals">http://elinux.org/RPi_VerifiedPeripherals</a></p>
+							<p>&nbsp;</p>
+							<p><small>keyboards, bluetooth dongles, soundcards, 3G, IR, GPS, HDMI/DVI/VGA cables &amp; converter boxes, webcams, TV tuners,...</small></p>
+						</section>
+				</section>
                 <section>
+                	<section>
+                		<h2>Cases, anyone?</h2>
+                	</section>
 					<section>
 						<h2>Cases</h2>
                         <a href="https://www.adafruit.com/products/859">
@@ -139,6 +244,148 @@
                         </a>
 					</section>
 				</section>
+				<section>
+					<section>
+						<h2>Wait a minute...</h2>
+						<p>&nbsp;</p>
+						<h3>Where the hell did that come from?</h3>
+					</section>
+					<section>
+						<h2>microcontrollers</h2>
+						<a href="http://www.arduino.cc"><img src="/medias/makers/arduino_due_in_hand.jpg"></a>
+						<p><small></small>
+					</blockquote>
+					</section>
+					<section>
+						<h2>Arduino (&amp; Arduino-like MC)</h2>
+						<a href="http://www.arduino.cc/en/Guide/Introduction"><img src="/medias/makers/logo_arduino.jpg"></a>
+							<blockquote cite="http://www.arduino.cc/en/Guide/Introduction">
+							Arduino is a tool for making computers that can sense and control more of the physical world than your desktop computer. It's an open-source physical computing platform (...), and a development environment for writing software for the board.
+						</blockquote>
+					</section>
+					<section>
+						<h2>ARM CPU</h2>
+						<blockquote cite="http://en.wikipedia.org/wiki/ARM_architecture">
+							In 2011: 95% of smartphones, 90% of hard disk drives, 40% of digital televisions and set-top boxes, 15% of microcontrollers and 20% of mobile computers 
+						</blockquote>
+					</section>
+					<section>
+						<h2>How many ARM cores<br>have you got at home?</h2>
+						<p>Microsoft Surface, ASUS Eee Pad, Apple iPads, iPhones &amp; iPods, Samsung Galaxy S II &amp;III, Google Nexus 10, Google Chrome Book, Blackberry smartphones, Canon PowerShot A470 digital camera, Nintendo DS game console, TomTom GPS...</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Wait a minute...</h2>
+						<p>&nbsp;</p>
+						<h3>Who did?<br>Who inspired?<br>Who buy?</h3>
+					</section>
+					<section>
+						<h2>The Joy of DIY</h2>
+						<img src="/medias/makers/640px-Arthur_Rothstein,_Boy_building_a_model_airplane_as_girl_watches,_FSA_camp,_Robstown,_Texas,_1942.jpg">
+						<p><small>Texas, 1942 (Wikimedia Commons)</small></p>
+					</section>
+					<section>
+						<h2>"Makers?"</h2>
+						<p>&nbsp;</p>
+						<p><b>maker</b> [ˈmeɪkə] - <i>n.</i><br>&nbsp;</p>
+						<blockquote cite="http://boingboing.net/2009/10/28/makers-my-new-novel.html">people who hack hardware, business-models, and living arrangements to discover ways of staying alive and happy even when the economy is falling down the toilet.
+						</blockquote>
+						<p><small>Cory Doctorow, <i><a href="http://craphound.com/makers/">Makers</a></i>, October 2009, <a href="http://craphound.com/makers/Cory_Doctorow_-_Makers.html">[read it for free]</a></small></p>
+						<p>&nbsp;</p>
+						<p><b>related</b>: Dreamers, scientists, hackers, self-replicators, teachers, troublemakers, laser-lovers, scouts</p>
+					</section>
+					<section>
+						<h2>"Maker subculture?"</h2>
+						<p>&nbsp;</p>
+						<blockquote cite="http://en.wikipedia.org/wiki/Maker_subculture">
+							The maker subculture is a contemporary subculture, representing a technology-based extension of DIY culture.
+						</blockquote>
+						<p>&nbsp;</p>
+						<p><b>related</b>: DIY, electronics, robotics, 3-D printing, home-automation / domotique, open-source-hardware, fablabs, cnc tools, metalworking, woodworking, knitting, traditional arts and crafts, no-patents</p>
+					</section>
+					<section>
+						<h2>OMG, I see makers everywhere!</h2>
+						<ul>
+							<li>places to meet makers: <a href="http://hackerspaces.org/wiki/List_of_Hacker_Spaces">hackerspaces</a> (<a href="http://hackerspaces.org/wiki/France#map_google3_1">60+ in France</a>, <a href="http://www.pingbase.net/">2+ in Nantes</a>), <a href="http://www.techshop.ws">techshops</a>, <a href="http://makerfaire.com/">makers faire</a></li>
+							<li>magazines: <a href="http://wired.com">Wired</a>, <a href="http://lifehacker.com">Lifehacker</a>, <a href="http://makezine.com/">MAKE magazine</a>, <a href="http://www.instructables.com/">Instructables</a>, <a href="http://www.popularmechanics.com">Popular Mechanics</a><small>(US: 1902, France: 1946)</small></li>
+							<li>Pinterest-like websites: <a href="https://diy.org/explore">diy.org</a>, <a href="http://www.thingiverse.com/newest">thingiverse.com</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>OMG, I see makers marketplaces everywhere!</h2>
+						<ul>
+							<li>dedicated online marketplaces: <a href="https://www.Tindie.com/">tindie.com</a>, <a href="http://www.etsy.com/browse/home-garden/electronics-gadgets">etsy.com</a></li> 
+							<li>makers favorite crowd funding websites: <a href="http://www.kickstarter.com/projects/search?term=Raspberry+PI">kickstarter.com</a>, <a href="http://www.quirky.com/shop">quirky.com</a>, <a href="http://www.indiegogo.com/projects?utf8=%E2%9C%93&filter_text=Raspberry+Pi">indiegogo.com</a>, <a href="http://fr.ulule.com/#!tags/technologeek/">ulule.com</a>...</li>
+							<li>online sharing tools : <a href="http://circuitbee.com">circuitbee.com</a>, <a href="http://circuits.io/">circuits.io</a>, <a href="http://www.dz863.com/">dz863.com</a>, <a href="http://upverter.com/">upverter.com</a>, <a href="https://www.circuitlab.com/">circuitlab.com</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Makers go mainstream</h2>
+						<img height="50%" src="/medias/makers/Makers_3d_2.jpg">
+						<p><small>
+							Yet-another-revolution-gone-bankable
+						</small></p>
+
+					</section>
+					<section>
+						<blockquote cite="http://www.adafruit.com/blog/2012/11/19/authorsgoogle-chris-anderson/">
+Just as the Web ended the monopoly of mass media, so it is now ending the monopoly of mass manufacturing. Over the next ten years, Anderson explains, countless micro-manufacturers, based on open-source design and DIY manufacturing, will help drive the next big movement in the global economy as the power of bytes—the Long Tail—is transformed into the power to make things again, the Long Tail of things.
+						</blockquote>
+					</section>
+					<section>
+						<h2>@GoogleTalks</h2>
+						<h3>showtime (1:23:33)</h3>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/3grzYoJ2oPQ?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+						<p><small>Chris Anderson (formally of <a href="http://wired.com">WIRED</a>) speaks about<br>his new book Makers: The New Industrial Revolution</small></p>
+					</section>
+					<section>
+						<h2>Conclusions so far</h2>
+						<ul class="fragment">
+							<li class="fragment">Raspberry PI is a <b>hackable device:</b> 1st value is <b>software and hardware hackability</b></li>
+							<li class="fragment">probably NSFW &amp; not scalable AT ALL</li>
+							<li class="fragment">hobbyist &amp; educational purposes FTW</li>
+							<li class="fragment">domestic robots, electronic breadboard &amp; any pet projects that need CPU</li>
+						</ul>
+					</section>
+					<section>
+						<h2>&amp; why not...</h2>
+						<ul>
+							<li>home automation</li>
+							<li>domestic server</li>
+							<li>corporate, HTML5-friendly visual <a href="http://jondot.github.com/graphene/">dashboards</a></li>
+							<li>interactive kiosks</li>
+							<li>public screens</li>
+							<li>artistic performances devices</li>
+							<li>(cheap &amp; tiny) museums 2.0 device</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>OK,</h2><h2>I'm a nerd,</h2><h2>show me all the</h2><h2>mind-blowing stuff!</h2>
+					</section>
+					<section>
+						<h2>2012 Internet of Things Award :</h2>
+						<a href="http://postscapes.com/awards/category/open-source-project"><img src="/medias/makers/e-health.png"></a> 
+					</section>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
